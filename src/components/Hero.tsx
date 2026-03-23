@@ -22,10 +22,10 @@ export default function Hero() {
   ];
 
   return (
-    <section className="relative pt-32 pb-24 bg-gradient-to-br from-blue-50 via-white to-gray-50 overflow-hidden">
+    <section className="relative pt-32 pb-24 bg-gradient-to-br from-mustard-50 via-white to-gray-50 overflow-hidden">
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-      <div className="absolute top-20 right-0 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+      <div className="absolute top-20 right-0 w-96 h-96 bg-mustard-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-mustard-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -41,14 +41,14 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row items-start gap-4 mb-12">
               <button
                 onClick={() => scrollToSection('#research-focus')}
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-all flex items-center gap-2 shadow-lg hover:shadow-xl hover:scale-105 transform"
+                className="bg-mustard-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-mustard-700 transition-all flex items-center gap-2 shadow-lg hover:shadow-xl hover:scale-105 transform"
               >
                 View Research Focus
                 <ArrowRight size={20} />
               </button>
               <button
                 onClick={() => scrollToSection('#methodology')}
-                className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-all hover:scale-105 transform"
+                className="bg-white text-mustard-600 px-8 py-4 rounded-lg font-semibold border-2 border-mustard-600 hover:bg-mustard-50 transition-all hover:scale-105 transform"
               >
                 Review Methodology
               </button>
@@ -58,7 +58,7 @@ export default function Hero() {
                 const Icon = stat.icon;
                 return (
                   <div key={index} className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all">
-                    <Icon size={20} className="text-blue-600 mb-2" />
+                    <Icon size={20} className="text-mustard-600 mb-2" />
                     <div className="text-xs text-gray-500 mb-1">{stat.label}</div>
                     <div className="text-sm font-bold text-gray-900">{stat.value}</div>
                   </div>
@@ -67,14 +67,14 @@ export default function Hero() {
             </div>
           </div>
           <div className="relative">
-            <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-blue-400 rounded-3xl opacity-20 blur-2xl"></div>
+            <div className="absolute -inset-4 bg-gradient-to-r from-mustard-600 to-mustard-400 rounded-3xl opacity-20 blur-2xl"></div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
               <img
                 src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200"
                 alt="Professional research environment with data and compliance focus"
                 className="w-full h-auto object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/50 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-mustard-900/50 to-transparent"></div>
             </div>
           </div>
         </div>

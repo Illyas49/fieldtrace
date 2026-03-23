@@ -39,7 +39,7 @@ export default function Overview() {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               What FieldTrace Research Does
             </h2>
-            <div className="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
+            <div className="w-20 h-1 bg-mustard-600 mx-auto mb-8"></div>
           </div>
           <div className="max-w-4xl mx-auto mb-16 bg-white p-8 md:p-12 rounded-2xl shadow-xl border border-gray-100">
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -52,7 +52,7 @@ export default function Overview() {
               pathways, support tools, and other critical product elements. We evaluate how clearly
               these systems are presented and how understandable they feel in practice.
             </p>
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg">
+            <div className="bg-mustard-50 border-l-4 border-mustard-600 p-6 rounded-r-lg">
               <p className="text-gray-800 leading-relaxed font-medium">
                 FieldTrace Research does not promote, rank, endorse, or market third-party platforms.
                 Research is conducted for analytical purposes only and findings are reported in
@@ -66,10 +66,10 @@ export default function Overview() {
               return (
                 <div
                   key={index}
-                  className="group bg-white p-8 rounded-xl border-2 border-gray-200 hover:border-blue-400 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+                  className="group bg-white p-8 rounded-xl border-2 border-gray-200 hover:border-mustard-400 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-br from-mustard-500 to-mustard-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg">
                     <Icon size={32} className="text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-4">{feature.title}</h3>

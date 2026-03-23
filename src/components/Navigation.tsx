@@ -57,7 +57,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
+            <div className="w-8 h-8 bg-mustard-600 rounded flex items-center justify-center">
               <span className="text-white font-bold text-sm">FT</span>
             </div>
             <span className="font-semibold text-gray-900 text-lg">FieldTrace Research</span>
@@ -68,7 +68,7 @@ export default function Navigation() {
                 key={item.href}
                 href={item.href}
                 onClick={(e) => scrollToSection(e, item.href)}
-                className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors"
+                className="text-sm font-medium text-gray-600 hover:text-mustard-600 transition-colors"
               >
                 {item.label}
               </a>
@@ -76,7 +76,7 @@ export default function Navigation() {
           </div>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden text-gray-600 hover:text-blue-600 transition-colors"
+            className="md:hidden text-gray-600 hover:text-mustard-600 transition-colors"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -91,7 +91,7 @@ export default function Navigation() {
                 key={item.href}
                 href={item.href}
                 onClick={(e) => scrollToSection(e, item.href)}
-                className="block text-base font-medium text-gray-600 hover:text-blue-600 transition-colors py-2"
+                className="block text-base font-medium text-gray-600 hover:text-mustard-600 transition-colors py-2"
               >
                 {item.label}
               </a>

@@ -47,25 +47,25 @@ export default function FAQ() {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Frequently Asked Questions
             </h2>
-            <div className="w-20 h-1 bg-blue-600 mx-auto"></div>
+            <div className="w-20 h-1 bg-mustard-600 mx-auto"></div>
           </div>
           <div className="space-y-4">
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl border-2 border-gray-200 overflow-hidden shadow-md hover:shadow-xl transition-all hover:border-blue-300"
+                className="bg-white rounded-xl border-2 border-gray-200 overflow-hidden shadow-md hover:shadow-xl transition-all hover:border-mustard-300"
               >
                 <button
                   onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                  className="w-full px-7 py-6 text-left flex items-center justify-between hover:bg-blue-50/50 transition-colors group"
+                  className="w-full px-7 py-6 text-left flex items-center justify-between hover:bg-mustard-50/50 transition-colors group"
                 >
-                  <span className="text-lg font-bold text-gray-900 pr-8 group-hover:text-blue-700 transition-colors">
+                  <span className="text-lg font-bold text-gray-900 pr-8 group-hover:text-mustard-700 transition-colors">
                     {faq.question}
                   </span>
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-600 transition-colors flex-shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-mustard-100 flex items-center justify-center group-hover:bg-mustard-600 transition-colors flex-shrink-0">
                     <ChevronDown
                       size={22}
-                      className={`text-blue-600 group-hover:text-white transition-all ${
+                      className={`text-mustard-600 group-hover:text-white transition-all ${
                         openIndex === index ? 'rotate-180' : ''
                       }`}
                     />
@@ -76,7 +76,7 @@ export default function FAQ() {
                     openIndex === index ? 'max-h-48' : 'max-h-0'
                   }`}
                 >
-                  <div className="px-7 pb-6 text-gray-700 leading-relaxed bg-blue-50/30">
+                  <div className="px-7 pb-6 text-gray-700 leading-relaxed bg-mustard-50/30">
                     {faq.answer}
                   </div>
                 </div>

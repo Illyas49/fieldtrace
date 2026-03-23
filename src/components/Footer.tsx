@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-8">
           <div className="flex items-center justify-center space-x-2 mb-4">
-            <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
+            <div className="w-8 h-8 bg-mustard-600 rounded flex items-center justify-center">
               <span className="text-white font-bold text-sm">FT</span>
             </div>
             <span className="font-semibold text-white text-lg">FieldTrace Research</span>
@@ -35,37 +35,37 @@ export default function Footer() {
           <div className="flex flex-wrap justify-center gap-6 mb-6 text-sm">
             <button
               onClick={() => scrollToSection('#overview')}
-              className="hover:text-blue-400 transition-colors"
+              className="hover:text-mustard-400 transition-colors"
             >
               Overview
             </button>
             <button
               onClick={() => scrollToSection('#research-focus')}
-              className="hover:text-blue-400 transition-colors"
+              className="hover:text-mustard-400 transition-colors"
             >
               Research Focus
             </button>
             <button
               onClick={() => scrollToSection('#methodology')}
-              className="hover:text-blue-400 transition-colors"
+              className="hover:text-mustard-400 transition-colors"
             >
               Methodology
             </button>
             <button
               onClick={() => scrollToSection('#participation')}
-              className="hover:text-blue-400 transition-colors"
+              className="hover:text-mustard-400 transition-colors"
             >
               Participation
             </button>
             <button
               onClick={() => scrollToSection('#faq')}
-              className="hover:text-blue-400 transition-colors"
+              className="hover:text-mustard-400 transition-colors"
             >
               FAQ
             </button>
             <a
               href="/terms"
-              className="hover:text-blue-400 transition-colors"
+              className="hover:text-mustard-400 transition-colors"
             >
               Terms of Service
             </a>
