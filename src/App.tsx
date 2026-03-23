@@ -23,7 +23,7 @@ function App() {
       const link = target.closest('a');
       if (link && link.href) {
         const url = new URL(link.href);
-        if (url.origin === window.location.origin) {
+        if (url.origin === window.location.origin && !url.hash) {
           if (url.pathname === '/terms') {
             e.preventDefault();
             window.history.pushState({}, '', '/terms');
